@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THU-CLASS</title>
+    <link rel="icon" href="/assets/img/Untitled design.png">
+    <link rel="stylesheet" href="./assets/css/bases.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/icon/fontawesome-free-6.4.0-web/fontawesome-free-6.4.0-web/css/all.min.css  ">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="gird">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate header__navbar-item--has-qr">
+                            Thanh Toán Tiền Học Phí 
+                            <i class="fa-solid fa-money-bill-transfer"></i>
+                            <div class="header__qr">
+                                <img src="./assets/img/d91264e165ed6facc6178994d5afae79.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="" class="header__qr-link"><img src="assets/img/appsotre.png" alt="App Store" class="header__qr-apps__img"></a>
+                                    <a href="" class="header__qr-link"><img src="assets/img/chplay.png" alt="CH Play" class="header__qr-apps__img"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title--no-poiter">Kết nối</span>
+                            <a href="https://www.facebook.com/ho.thu.5" class="header__navbar-icon-link">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                            <a href="" class="header__navbar-icon-link">
+                                <i class="fa-solid fa-z"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                       <li class="header__navbar-item header__navbar-item--has-notify">
+                            <a href="" class="header__navbar-item-link ">
+                                <i class="fa-regular fa-bell"></i>
+                                Thông báo
+                            </a>
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3>Thông báo mới nhận</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://th.bing.com/th/id/R.33eb42f7b37934f6169e48b4834455cc?rik=Xqb%2b%2fAX0%2fUskMA&pid=ImgRaw&r=0" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Hồ Sỹ Thảoasdasssssssssdasdsadasssssssssssssss</span>
+                                                <span class="header__notify-describe">Sinh viên trường đại học bách khoa</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://th.bing.com/th/id/R.33eb42f7b37934f6169e48b4834455cc?rik=Xqb%2b%2fAX0%2fUskMA&pid=ImgRaw&r=0" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Hồ Sỹ Thảo</span>
+                                                <span class="header__notify-describe">Sinh viên trường đại học bách khoa</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="https://th.bing.com/th/id/R.33eb42f7b37934f6169e48b4834455cc?rik=Xqb%2b%2fAX0%2fUskMA&pid=ImgRaw&r=0" alt="" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">sadasdasdsaasdadasdasdasdasdasdasdasdasdasdasdasdasdasdasdsadasssssssssssssssádasdasdasdasdasdasdasdasdasdasdads</span>
+                                                <span class="header__notify-describe">Hiểu được vấn đề này, đơn vị thông tắc cống của công ty Thăng Long Envico không ngừng nâng cao tay nghề cho đội ngũ nhân viên, cải thiện giá thành. Đồng thời, phát triển thêm chi nhánh rộng khắp địa bàn thành phố để giúp khách hàng xử lý triệt để các vấn đề tắc cống một cách nhanh nhất.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                       </li>
+                       <li class="header__navbar-item">
+                            <a href="" class="header__navbar-item-link">
+                                <i class="fa-solid fa-circle-question"></i>
+                                Trợ giúp
+                            </a>
+                       </li>
+                       <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                       <li class="header__navbar-item header__navbar-item--strong">Đăng Nhập</li>
+                       <!-- <li class="header__navbar-item header__navbar-user">
+                            <img src="/assets/img/thao.jpg" alt="" class="header__navbar-user-img">
+                            <span class="header__navbar-user-name">Hồ Sỹ Thảo</span>
+                            <ul class="header__navbar-user-menu">
+                                <li class="header__navbar-user-item">
+                                    <a href="">Thông tin</a>
+                                </li>
+                                <li class="header__navbar-user-item">
+                                    <a href="">Thay ảnh</a>
+                                </li>
+                                <li class="header__navbar-user-item header__navbar-user-item--sparate">
+                                    <a href="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                       </li> -->
+                    </ul>
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <!-- <a href="/" class="header__logo-link">
+                            <img src="/assets/img/Untitled design.png" alt="" class="header__logo-img">
+                        </a> -->
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="Tìm kiếm tài liệu">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">
+                                    Lịch sử tìm kiếm
+                                </h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Bài tập tiếng anh lớp 6</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">bài tập tiếng anh lớp 12</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Choose Class</span>
+                            <i class="header__search-select-icon fa-solid fa-bars"></i>
+                            <ul class="header__search-options">
+                                <li class="header__search-options-item header__search-options-item--active">
+                                    <span>Lớp 6</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 7</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 8</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 9</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 10</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 11</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-options-item">
+                                    <span>Lớp 12</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-brands fa-searchengin"></i>
+                        </button>
+                    </div>
+                    <div class="header__upload">
+                        <div class="header__upload-wraps">
+                            <i class="header__upload-icon fa-solid fa-user"></i>
+                            <span class="header__upload-notice">3</span>
+                            <div class="header__upload-list">
+                                <img src="/assets/img/35c68d918389278ed08e7793fb37dc7c.jpg" alt="" class="header__upload-node-img">
+                                <span class="header__upload-none-mes">
+                                    Chưa có học sinh đăng ký :(
+                                </span>
+                                <h4 class="header__upload-heading">Số học sinh đã thêm</h4>
+                                <ul class="header__upload-list-items">
+                                    <li class="header__upload-items">
+                                        <img src="/assets/img/thao.jpg" alt="" class="header__upload-items-img">
+                                        <div class="header__upload-items-infor">
+                                            <div class="header__upload-items-head">
+                                                <h5 class="header__upload-items-name">Hồ Sỹ Thảo</h5>
+                                                <div class="header__upload-items-conect">
+                                                    <span class="header__upload-items-span-link">Thông tin :</span>
+                                                    <a href="https://www.facebook.com/tuonglai.toi.1" class="header__upload-items-link">
+                                                        <i class="fa-brands fa-facebook"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="header__upload-items-body">
+                                                <span class="header__upload-items-phone">Số điện thoại: 0838664246</span>
+                                                <span class="header__upload-items-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="header__upload-items">
+                                        <img src="/assets/img/thu.jpg" alt="" class="header__upload-items-img">
+                                        <div class="header__upload-items-infor">
+                                            <div class="header__upload-items-head">
+                                                <h5 class="header__upload-items-name">Hồ Thị Huệ Thư</h5>
+                                                <div class="header__upload-items-conect">
+                                                    <span class="header__upload-items-span-link">Thông tin :</span>
+                                                    <a href="https://www.facebook.com/ho.thu.5" class="header__upload-items-link">
+                                                        <i class="fa-brands fa-facebook"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="header__upload-items-body">
+                                                <span class="header__upload-items-phone">Số điện thoại: 0941395103</span>
+                                                <span class="header__upload-items-remove">Xóa</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                                <button class="btn btn--primary header__upload-view">Xem học sinh</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="app__container">
+            <div class="gird">
+                <div class="gird__row app__content">
+                    <div class="gird__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fa-solid fa-list"></i>
+                                Danh Mục
+                            </h3>
+            
+                            <ul class="category-list">
+                                <li class="category-item category-item--active">
+                                    <a href="#" class="category-item-link">Tài liệu</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item-link">Bài tập</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="https://hothao1622004.github.io/" class="category-item-link">Nghe nhạc tiếng anh</a>
+                                </li>
+                            </ul>
+                         </nav>
+                    </div>
+                    <div class="gird__column-10">
+                        <div class="home-filter">
+                            <span class="home-filer__label">Sắp xếp theo</span>
+                            <button class="home-filer__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filer__btn btn btn--white">Cũ nhất</button>
+                            
+                            <div class="home-filter__page">
+                                <span class="home-filter__page-num">
+                                    <span class="home-filter__page-crrent">1</span>/14
+                                </span>
+                                <div class="home-filter__page-move">
+                                    <a href="" class="home-filter__page-btn home-filter__page-btn--disable">
+                                        <i class="home-filter__page-icon fa-solid fa-arrow-left"></i>
+                                    </a>
+                                    <a href="" class="home-filter__page-btn">
+                                        <i class="home-filter__page-icon fa-solid fa-arrow-right"></i>
+                                    </a>    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="home-product">
+                            <div class="gird__row">
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>  
+                                <div class="gird__column-2-4">
+                                    <!-- Product Items -->
+                                    <div class="home-product-item">
+                                        <a href="https://vietjack.com/sbt-tieng-anh-6-kn/index.jsp" class="home-product-item-link">
+                                            <div class="home-product-item__img" style="background-image:url(https://blogtailieu.com/wp-content/uploads/2021/05/sbt-tieng-anh-6-tap-1-kn-1-768x1082.jpg?v=1622297694);"></div>
+                                            <h2 class="home-product-item__name">Bài tập tiếng anh lớp 6</h2>
+                                            <h4 class="home-product-item__author">Hồ Thị Huệ Thư</h4>
+                                        </a>
+                                        <div class="home-product-item__action">
+
+                                            <span class="home-product-item__like">
+                                                <i class="home-product-item__like-icon-empty fa-regular fa-heart"></i>
+                                                <i class="fa-solid fa-heart home-product-item__like-icon-fill"></i>
+                                            </span>
+                                            
+                                            <div class="home-product-item__rating">
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="home-product-item__star--gold fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                                <i class ="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home_product-item__usefull">
+                                            <div class="home-product-item__viewer">
+                                                <h5 class="home-product-item__viewer-view">Lượt xem:</h5>
+                                                <h6 class="home-product-item__viewer-count">300</h6>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item__favourite">
+                                            <i class="fa-solid fa-check"></i> 
+                                            <span>Yêu thích</span>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <!-- Creat Modal -->
+
+    <!-- <div class="modal">
+      <div class="modal__verlay"></div>
+        <div class="modal__body"> -->
+
+
+            <!-- Register Form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form-heading">Đăng ký</h3>
+                        <span class="auth-form-swicth-btn">Đăng Nhập</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Tên tài khoản">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--size-s btn--with-icon auth-form__socials-facebook">
+                        <i class="fa-brands fa-square-facebook auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span> 
+                    </a>
+                    <a href="" class="btn btn--size-s btn--with-icon auth-form__socials-google">
+                        <i class="fa-brands fa-square-google-plus auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Login Form -->
+
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form-heading">Đăng Nhập</h3>
+                        <span class="auth-form-swicth-btn">Đăng Ký</span>
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Tên tài khoản">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu">
+                        </div>
+                    </div>
+                    <div class="auth-form__beside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-link--separate">Quên mật khẩu</a>
+                            <a href="" class="auth-form__help-link ">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+                    <div class="auth-form__controls">
+                        <button class="btn auth-form__controls-back btn--normal">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+                <div class="auth-form__socials">
+                    <a href="" class="btn btn--size-s btn--with-icon auth-form__socials-facebook">
+                        <i class="fa-brands fa-square-facebook auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Facebook
+                        </span> 
+                    </a>
+                    <a href="" class="btn btn--size-s btn--with-icon auth-form__socials-google">
+                        <i class="fa-brands fa-square-google-plus auth-form__socials-icon"></i>
+                        <span class="auth-form__socials-title">
+                            Kết nối với Google
+                        </span>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</body>
+</html>
