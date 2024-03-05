@@ -66,6 +66,10 @@ html {
     width: 50%;  
 }
 
+.position__right {
+    margin-left: 60%;
+}
+
 
 /* Animation */
 

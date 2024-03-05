@@ -1257,3 +1257,83 @@ i.home-product-item__like-icon-fill {
 
 /* FOOTER */
 
+.footer {
+    padding-top : 12px;
+    border-top : 4px solid var(--primary-color);
+    background-color: var(--while-color);
+}
+
+.footer__heading {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color : var(--text-color);
+}
+
+.foot-list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer-item-link {
+    text-decoration:  none;
+    font-size: 1.2rem;
+    color: #737373;
+    padding: 2px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-item-link:hover {
+    color : var(--primary-color);
+}
+
+.footer-item__icon {
+    font-size : 1.6rem;
+    margin-top: -1px;   
+    margin-right: 8px;
+}
+
+
+.footer__pay {
+    display:  flex;
+}
+
+.footer__pay-qr {
+    width: 80px;
+    height: 80px;
+    /* object-fit: contain; */
+    border: 1px solid var(#ccc);
+}
+
+.footer__pay-not-qr {
+    display: block;
+}
+
+.footer__pay-infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction : column; */
+}
+
+.footer__pay-infor-img {
+    height: 30px;
+}
+
+.footer__pay-infor-text {
+    flex: 1;
+    color:var(--text-color);
+    font-size: 1.1rem;
+    padding-left: 2px;
+    line-height: 15px;
+    padding-top: 2px;
+}
+
+.footer__pay-infor-name {
+    margin-top: 16px;
+}
+
+.footer-item-phone {
+    font-size: 1.2rem;
+    color: #737373;
+}
