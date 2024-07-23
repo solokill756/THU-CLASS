@@ -44,13 +44,13 @@
                         <div class="col-md-2">
                             <p class="text-black fw-bold fs-5">Bộ Lọc : </p>
                         </div>
-                        <div class="col-md-6" style="margin-left: -10%;">
+                        <div class="col-md-5" style="margin-left: -8%;">
                             <div class="input-group">
                                 <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Điền tên lớp vào">
                                
                             </div>
                         </div>
-                        <div class="col-md-4 ms-5">
+                        <div class="col-md-5 ms-5">
                             <button type="button" class="btn btn-outline-danger" style="margin-left: 300px;" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Thêm Lớp</button>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog modal-dialog-scrollable">
@@ -60,7 +60,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="img_class">
-                                            <img src="/assets/img/R.jpg" alt="" class="card-img-top">
+                                            <img src="/assets/img/R.jpg" alt="" class="card-img-top" style="height: 200px;">
                                         </div>
                                         <div class="modal-body">
                                             <form>
@@ -75,7 +75,22 @@
                                                 <div class="mb-3">
                                                     <label for="class-date" class="col-form-label fw-bold">Ngày học:</label>
                                                     <div id="class-dates">
-                                                        <input type="date" class="form-control mb-2" name="class-dates[]">
+                                                        <div class="mb-2 row">
+                                                            <div class="col-md-6">
+                                                                <select class="form-control" name="class-day[]">
+                                                                    <option value="Monday">Thứ Hai</option>
+                                                                    <option value="Tuesday">Thứ Ba</option>
+                                                                    <option value="Wednesday">Thứ Tư</option>
+                                                                    <option value="Thursday">Thứ Năm</option>
+                                                                    <option value="Friday">Thứ Sáu</option>
+                                                                    <option value="Saturday">Thứ Bảy</option>
+                                                                    <option value="Sunday">Chủ Nhật</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="col-md-6">
+                                                                <input type="time" class="form-control" name="class-time[]">
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                     <div class="row">
                                                         <div class="col-md-5">
@@ -85,10 +100,9 @@
                                                             <button type="button" class="btn btn-outline-danger" id="delete-date-btn">Xóa ngày học</button>
                                                         </div>
                                                     </div>
-                                                    
                                                 </div>
                                                 <div class="mb-3">
-                                                    <label for="class-description" class="col-form-label">Giới thiệu cơ bản:</label>
+                                                    <label for="class-description" class="col-form-label fw-bold">Giới thiệu cơ bản:</label>
                                                     <textarea class="form-control" id="class-description"></textarea>
                                                 </div>
                                             </form>
@@ -110,7 +124,7 @@
             
             <div class="classroom">
                 <div class="container">
-                    <div class="row gy-3">
+                    <div class="row gy-3 mx-5">
                         <div class="col-md-4" style="width: 20rem;">
                             <div class="card">
                                 <img src="/assets/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
