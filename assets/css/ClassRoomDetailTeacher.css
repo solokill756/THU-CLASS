@@ -185,8 +185,8 @@
   }
   
   .student.selected {
-    border: 2px solid #a00e0e;
-    background-color: #ffe6e6; /* Light red background for selected state */
+    border: 2px solid green;
+    background-color: #f4ffe6; /* Light red background for selected state */
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
   }
   
@@ -232,4 +232,6 @@
     text-align: center;
     bottom: 18px;
   }
+  
+
   
