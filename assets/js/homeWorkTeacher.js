@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
     deleteImageButton.addEventListener('click' , function(){
-        const lastChirld = imageList.lastChild;
+        const lastChirld = imageList.lastElementChild;
         if(lastChirld) {
             imageList.removeChild(lastChirld);
         }
@@ -57,4 +57,3 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     })
 });
-

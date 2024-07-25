@@ -25,3 +25,23 @@
 
 }
 
+.d-none {
+    display: none;
+}
+
+#imageList {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.image-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
