@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/HomeWork.css">
     <link rel="stylesheet" href="/assets/css/bases.css">
     <link rel="stylesheet" href="/assets/css/HomeWorkTeacher.css">
+    <link rel="stylesheet" href="/assets/css/attendance.css">
 </head>
 <body>
 
@@ -165,7 +166,7 @@
                                         <div class="row mb-2">
                                             <p class="card-text fw-bold">Lớp : 10</p>
                                         </div>
-                                        <a href="#" class="btn btn-success mt-2">Xem chi tiết</a>
+                                        <div class="btn btn-success mt-2"  data-bs-toggle="modal" data-bs-target="#thongKeModal">Thống kê</div>
                                     </div>
                                 </div>
                             </div>
@@ -191,7 +192,7 @@
                                         <div class="row mb-2">
                                             <p class="card-text fw-bold">Lớp : 10</p>
                                         </div>
-                                        <a href="#" class="btn btn-success mt-2">Xem chi tiết</a>
+                                        <div class="btn btn-success mt-2"  data-bs-toggle="modal" data-bs-target="#thongKeModal">Thông kê</div>
                                     </div>
                                 </div>
                             </div>
@@ -217,7 +218,7 @@
                                         <div class="row mb-2">
                                             <p class="card-text fw-bold">Lớp : 10</p>
                                         </div>
-                                        <a href="#" class="btn btn-success mt-2">Xem chi tiết</a>
+                                        <div class="btn btn-success mt-2"  data-bs-toggle="modal" data-bs-target="#thongKeModal">Thống kê</div>
                                     </div>
                                 </div>
                             </div>
@@ -243,7 +244,7 @@
                                         <div class="row mb-2">
                                             <p class="card-text fw-bold">Lớp : 10</p>
                                         </div>
-                                        <a href="#" class="btn btn-success mt-2">Xem chi tiết</a>
+                                        <div class="btn btn-success mt-2"  data-bs-toggle="modal" data-bs-target="#thongKeModal">Thông kê</div>
                                     </div>
                                 </div>
                             </div>
@@ -269,12 +270,163 @@
                                         <div class="row mb-2">
                                             <p class="card-text fw-bold">Lớp : 10</p>
                                         </div>
-                                        <a href="#" class="btn btn-success mt-2">Xem chi tiết</a>
+                                        <div  class="btn btn-success mt-2"  data-bs-toggle="modal" data-bs-target="#thongKeModal">Thống kê</div>
+
+                                        <!-- Modal thông kê -->
+                                        <div class="modal fade ps-0" id="thongKeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-fullscreen">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h1 class="modal-title fs-5 fw-bold" id="exampleModalLabel">Thông Kê Bài Nộp</h1>
+                                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-md-10">
+                                                                <div class="row">
+                                                                    <div class="col-md-2">
+                                                                        <p class="text-black fw-bold fs-5">Bộ Lọc : </p>
+                                                                    </div>
+                                                                    <div class="col-md-7" style="margin-left: -8%;">
+                                                                        <div class="input-group">
+                                                                            <input type="text" class="form-control" aria-label="Text input with dropdown button" placeholder="Điền tên học sinh">
+                                                                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Loại</button>
+                                                                            <ul class="dropdown-menu dropdown-menu-end">
+                                                                                <li><a class="dropdown-item" href="#">Chưa chấm</a></li>
+                                                                                <li><a class="dropdown-item" href="#">Đã chấm</a></li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-2">
+                                                                <button class="button_timKiem">
+                                                                    <span class="button-content">Tìm kiếm</span>
+                                                                  </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="container mt-5">
+                                                        <table class="table  text-center table-hover">
+                                                            <thead class="table-dark">
+                                                                <tr>
+                                                                    <th scope="col">Số thứ tự</th>
+                                                                    <th scope="col">Hình ảnh</th>
+                                                                    <th scope="col">Họ và tên</th>
+                                                                    <th scope="col">Bài làm học sinh</th>
+                                                                    <th scope="col">Điểm</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <div class="btn btn-outline-primary">Xem Bài Tập</div>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <div class="btn btn-outline-primary">Xem Bài Tập</div>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <div class="btn btn-outline-primary">Xem Bài Tập</div>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <a href="/StudentHomeWork.html" class="btn btn-outline-primary" target="_blank">Xem Bài Tập</a>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <div class="btn btn-outline-primary">Xem Bài Tập</div>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <th scope="row">1</th>
+                                                                    <td>
+                                                                        <img src="/assets/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 35px; height: 35px;">
+                                                                    </td>
+                                                                    <td>
+                                                                        Hồ Sỹ Thảo
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <div class="btn btn-outline-primary">Xem Bài Tập</div>
+                                                                    </td>
+                                                                    <td class="text-danger fw-bolder">
+                                                                        <input type="number" class="Point mx-auto border-2">
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                          </table>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Thoát</button>
+                                                  <button type="button" class="btn btn-primary">Lưu</button>
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
                                     </div>
                                 </div>
                             </div>
                           </div>
                     </div>
+                     <!-- Model thông kê -->
+                    
                 </div>
             </div>
            
