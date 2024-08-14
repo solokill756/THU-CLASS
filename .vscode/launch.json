@@ -10,6 +10,16 @@
             "name": "Launch Chrome against localhost",
             "url": "http://localhost:8080",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ClassthuApplication<classthu>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.classthu.classthu.ClassthuApplication",
+            "projectName": "classthu",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
