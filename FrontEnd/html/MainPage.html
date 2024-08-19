@@ -19,7 +19,8 @@
                 </div>
                 <div class="col-md-8 d-flex justify-content-center">
                     <a class="nav-link link-offset-2 link-underline link-underline-opacity-0 fw-bolder mx-3" href="#"><i class="fa-solid fa-people-line me-2"></i>Lớp học</a>
-                    <a class="nav-link link-offset-2 link-underline link-underline-opacity-0 fw-bolder mx-3" href="#"><i class="fa-solid fa-book-open me-2"></i>Bài kiểm tra được giao</a>
+                    <a class="nav-link link-offset-2 link-underline link-underline-opacity-0 fw-bolder mx-3" href="#"><i class="fa-solid fa-book-open me-2"></i>Bài tập về nhà</a>
+                    <a class="nav-link link-offset-2 link-underline link-underline-opacity-0 fw-bolder mx-3" href="#"><i class="fa-solid fa-book me-2"></i>Tài liệu học tập</a>
                 </div>
                 <div class="col-md-2 d-flex align-items-center">
                     <img src="/FrontEnd/img/thao.jpg" alt="User Avatar" class="rounded-circle me-2" style="width: 40px; height: 40px;">
@@ -40,7 +41,7 @@
             <div class="findClass">
                 <div class="container py-3">
                     <div class="row">
-                        <div class="col-md-2">
+                        <div class="col-md-2 me-md-3">
                             <p class="text-black fw-bold fs-5">Bộ Lọc : </p>
                         </div>
                         <div class="col-md-7" style="margin-left: -10%;">
@@ -59,102 +60,59 @@
             
             <div class="classroom">
                 <div class="container">
-                    <div class="row gy-3">
-                        <div class="col-md-4" style="width: 20rem;">
+                    <div class="row gy-3 ms-5 list_course">
+                        <!-- <div class="col-md-4" style="width: 20rem;">
                             <div class="card">
                                 <img src="/FrontEnd/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
                                 <div class="card-body">
                                   <h5 class="card-title" style="color: #EB5B00;">Tiếng anh lớp 8</h5>
                                   <p class="card-text text-secondary-emphasis">Dạy theo nội dung học trên cường cộng với phát triền kĩ năng nói</p>
-                                  <button class="mt-1 button_css fw-bold">Đăng ký</button>
+                                  <button class="mt-1 button_css fw-bold" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Đăng ký</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-4" style="width: 20rem;">
-                            <div class="card">
-                                <img src="/FrontEnd/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
-                                <div class="card-body">
-                                    <h5 class="card-title" style="color: #EB5B00;">Tiếng anh lớp 8</h5>
-                                    <p class="card-text text-secondary-emphasis">Dạy theo nội dung học trên cường cộng với phát triền kĩ năng nói</p>
-                                    <button class="mt-1 button_css " type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Đăng ký</button>
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Học Phí - Lịch Học</h1>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="container">
-                                                    <div class="row">
-                                                        <div class="col-3">
-                                                            <p class=" text-danger fw-bolder">Học phí : </p>
-                                                        </div>
-                                                        <div class="col-4">
-                                                            <p class=" text-black">250 nghìn đồng</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row">
-                                                        <div class="col-3">
-                                                            <p class=" text-danger fw-bolder">Lịch học:  </p>
-                                                        </div>
-                                                        <div class="col">
-                                                            <div class="row">
-                                                                <p class="text-black fw-bolder">Thứ hai : 7h - 8h</p>
-                                                            </div>
-                                                            <div class="row">
-                                                                <p class="text-black fw-bolder">Thứ hai : 15h - 17h</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
-                                            <button type="button" class="btn btn-primary fw-bold">Đăng ký</button>
-                                            </div>
-                                        </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4" style="width: 20rem;">
-                            <div class="card">
-                                <img src="/FrontEnd/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
-                                <div class="card-body">
-                                  <h5 class="card-title" style="color: #EB5B00;">Tiếng anh lớp 8</h5>
-                                  <p class="card-text text-secondary-emphasis">Dạy theo nội dung học trên cường cộng với phát triền kĩ năng nói</p>
-                                  <button class="mt-1 button_css">Đăng ký</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4" style="width: 20rem;">
-                            <div class="card">
-                                <img src="/FrontEnd/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
-                                <div class="card-body">
-                                  <h5 class="card-title" style="color: #EB5B00;">Tiếng anh lớp 8</h5>
-                                  <p class="card-text text-secondary-emphasis">Dạy theo nội dung học trên cường cộng với phát triền kĩ năng nói</p>
-                                  <button class="mt-1 button_css">Đăng ký</button>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4" style="width: 20rem;">
-                            <div class="card">
-                                <img src="/FrontEnd/img/Tieng-Anh-8-Tap-1.jpg" class="card-img-top img-fluid" alt="..." style="cursor: pointer;">
-                                <div class="card-body">
-                                  <h5 class="card-title" style="color: #EB5B00;">Tiếng anh lớp 8</h5>
-                                  <p class="card-text text-secondary-emphasis">Dạy theo nội dung học trên cường cộng với phát triền kĩ năng nói</p>
-                                  <button class="mt-1 button_css">Đăng ký</button>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <!-- Modal -->
+    <div class="modal fade" id="scheduleTable" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Học Phí - Lịch Học</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-3">
+                            <p class=" text-danger fw-bolder">Học phí : </p>
+                        </div>
+                        <div class="col-4">
+                            <p class=" text-black tuition">250 nghìn đồng</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <p class=" text-danger fw-bolder">Lịch học:  </p>
+                        </div>
+                        <div class="col listDay">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+            <button type="button" class="btn btn-primary fw-bold">Đăng ký</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>   
+    <script src="/FrontEnd/js/ClassRoomForST.js"></script> 
 </body>
 
 </html>
