@@ -36,5 +36,4 @@ public class ClassController {
     public ResponseEntity<String> addClass(@RequestBody Classes dataClasses) {
         return classService.addClass(dataClasses);
     }
-
 }
