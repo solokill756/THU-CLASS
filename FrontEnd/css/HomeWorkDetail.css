@@ -1,0 +1,47 @@
+.overlay {
+
+    position: absolute;
+
+    top: 0;
+
+    left: 0;
+    
+
+    height: 100%;
+
+    width: 100%;
+
+    background-color: var(--bs-secondary-bg-subtle) !important;
+
+    z-index: -1; /* Đảm bảo lớp phủ ở phía sau nội dung body */
+
+}
+
+.carousel-item img {
+
+    height: 450px; 
+
+    object-fit: cover; 
+
+}
+
+.d-none {
+    display: none;
+}
+
+#imageList {
+    display: flex;
+    flex-direction: column;
+}
+
+.image-item {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.image-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
