@@ -24,13 +24,13 @@ public class UserService {
     @Autowired
     JWTService jWTService;
 
-    private BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder(12);
+    private final BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder(12);
 
     public ResponseEntity<String> signUp(UserModel userModel) {
         userModel.setPassword(passwordEncoder.encode(userModel.getPassword()));
         try {
             userDao.save(userModel);
-            return new ResponseEntity<>("success", HttpStatus.CREATED);
+            return new ResponseEntity<>(jWTService.getToken(userModel.getEmail()), HttpStatus.CREATED);
         } catch (Exception e) {
             e.printStackTrace();
         }
