@@ -29,19 +29,17 @@
                     <div class="row text-center">
                         <p class="fw-bold text-danger">Vui lòng đăng nhập để trải nghiệm</p>
                     </div>
-                    <form>
+                    <form id="loginForm">
                         <div class="mb-3">
                             <label for="validationEmail" class="form-label fw-bold">Gmail</label>
-                            <input type="email" class="form-control" id="validationEmail" placeholder="Nhập Gmail" required>
-                            <div class="invalid-feedback">
-                                Vui lòng nhập Gmail hợp lệ.
-                            </div>
+                            <input type="email" class="form-control" id="loginEmail" placeholder="Nhập Gmail" required name="email">
+                            
                         </div>
                         <div class="mb-3">
                             <label for="validationPassword" class="form-label fw-bold">Mật khẩu</label>
-                            <input type="password" class="form-control" id="validationPassword" placeholder="Nhập mật khẩu" required>
-                            <div class="invalid-feedback">
-                                Vui lòng nhập mật khẩu.
+                            <input type="password" class="form-control" id="loginPassword" placeholder="Nhập mật khẩu" required name="password">
+                            <div class="invalid-feedback" style="text-align: center; margin-top: 10px;">
+                                 Tài khoản hoặc mật khẩu bạn bị sai , xin hãy đăng nhập lại !!!
                             </div>
                         </div>
                         <div class="text-center my-4">
